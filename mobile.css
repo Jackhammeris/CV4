@@ -236,6 +236,14 @@ opacity: 0.4;
   opacity: 0.4;
 }
 
+.course-link {
+color: #1A1C20;
+}
+
+.course-link:hover {
+color: #F7E2E2;
+}
+
 .margin-opacity-right {
   padding-right: 2%;
   opacity: 0.4;

@@ -47,7 +47,7 @@ $('.opacity').waypoint(function() {
         $('#' + this.element.id).animate({
               marginRight: 0,
               opacity: 1
-            }, 800);
+            }, 600);
     }, {offset:'85%' });
 
     $('.opacity-short').waypoint(function() {

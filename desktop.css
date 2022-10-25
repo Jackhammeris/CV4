@@ -3,6 +3,10 @@ body {
   font-family: 'Montserrat', Arial, sans-serif;
 }
 
+i {
+  margin-left: 0;
+}
+
 h1 {
   font-size: 60px;
   font-weight: 900;
@@ -201,6 +205,9 @@ opacity: 0;
 
 /* _________about CSS_________ */
 
+.fa-regular {
+  padding-left: 0;
+}
 
 #about.section-main {
   position: relative;
@@ -208,18 +215,27 @@ opacity: 0;
   z-index: 10;
 }
 
+.course-link {
+color: #1A1C20;
+}
+
+.course-link:hover {
+color: #F7E2E2;
+}
+
 .about-heading {
   color: #1A1C20;
 }
 
 .about-text {
+  text-indent: 50px;
   color: #1A1C20;
 }
 
 .skills-heading {
   text-align: center;
   color: #1A1C20;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: 15px;
 }
 
